@@ -1,0 +1,48 @@
+body
+{
+ background-image: url("logos/back.jpg");
+}
+
+.jumbotron{
+	background-color: rgba(0, 0, 0, 0.8);
+    color:white;
+    font-family:dancing script;
+    margin-top: auto;
+
+}
+img{
+	height: 300px;
+	width:300px;
+	padding: 2%;
+	
+	border-radius: 10%;
+	text-align: center;
+}
+#logo1
+{
+	height:80px;
+	width: 80px;
+	padding:0.5%;
+	border-radius:50%
+
+}
+#logo
+{
+	height: 120px;
+	width: 120px;
+	background-color: rgba(0 ,0 , 0, 0);
+	margin-left: 1%;
+	border-radius: 20%
+}
+
+.summary{
+	color:white;
+	font-size: 20px;
+	border-radius:10%;
+	text-align: center;
+	
+}
+
+#place{
+	background-color: rgba(0, 0, 0, 0.8);
+}

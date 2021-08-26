@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<!--Latest compiled and minified JavaScript--> 
+	<link rel="icon" href="logos/tv_icon.gif">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js'></script>
+	<link rel="stylesheet" type="text/css" href="tv_show.css">
+	<title>show_search</title>
+</head>
+<body>
+	<div class="jumbotron">
+	<div class="row">	
+	<div class="col-xs-12" style="text-align: center">
+	<h1 style="margin-left:15px;">
+	Search Your Show<img id="logo" src="logos/tv_icon.gif"></h1>
+	
+	<h5 style="font-size: 30px;margin-left:15px">Lost around the various OTT Plateforms! No worries:), You can find your favorite ones here.</h5>
+</div>
+<div class="col-xs-12" style="margin-left: 5.5%">
+	<a href="https://www.primevideo.com" target="_blank">
+		<img id="logo1" src="logos/amazon.png" style="background-color: white">
+	</a>
+	<a href="https://www.netflix.com/in/" target="_blank">
+	<img id="logo1" src="logos/netflix.png"></a>
+	<a href="https://youtube.com/" target="_blank">
+	<img id="logo1" src="logos/youtube.png"></a>
+	<a href="https://www.hotstar.com/in/" target="_blank">
+	<img id="logo1" src="logos/hotstar.png"></a>
+	<a href="https://www.arre.co.in/" target="_blank">
+	<img id="logo1" src="logos/arre.jpg"></a>
+	<a href="https://www.voot.com/" target="_blank">
+	<img id="logo1" src="logos/voot.png"></a>
+	<a href="https://www.zee5.com/" target="_blank">
+	<img id="logo1" src="logos/zee.jpg"></a>
+	<a href="https://www.zee5.com/" target="_blank">
+	<img id="logo1" src="logos/sony.jpg"></a>
+	<a href="https://www.altbalaji.com/" target="_blank">
+	<img id="logo1" src="logos/alt.jpg"></a>
+	<a href="https://www.viu.com/ott/in/en/hindi" target="_blank">
+	<img id="logo1" src="logos/viu.png" ></a>
+	<a href="https://www.mxplayer.in/" target="_blank">
+	<img id="logo1" src="logos/mx.jpg"></a>
+</div>
+</div>
+</div>
+<div style="text-align: center;">
+<form id="form">
+
+  <input type="text" name="Search_bar" placeholder="Title you remembered" value="" id="inp">
+  <button class="btn btn-primary"id="button">Search</button>
+ 
+</form>
+<form>
+	 <button class="btn btn-warning" id='re' onclick="reset()">Clear</button>
+
+</form>
+</div>
+<div class="container" id="place">
+
+</div>
+
+<script type="text/javascript" src="tv_show.js"></script>
+</body>
+</html>
